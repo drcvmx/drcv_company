@@ -1,0 +1,60 @@
+// DRCV Company Color Palette
+:root {
+  // Primary Colors (from logo)
+  --color-primary-magenta: #ff1493;
+  --color-primary-cyan: #00bfff;
+  --color-primary-blue: #0080ff;
+  
+  // Background Colors
+  --color-bg-dark: #0a0a1a;
+  --color-bg-darker: #050510;
+  --color-bg-card: rgba(255, 255, 255, 0.05);
+  --color-bg-card-hover: rgba(255, 255, 255, 0.1);
+  
+  // Text Colors
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #b3b3cc;
+  --color-text-accent: #00bfff;
+  
+  // Gradient Colors
+  --gradient-primary: linear-gradient(135deg, #ff1493 0%, #0080ff 100%);
+  --gradient-secondary: linear-gradient(135deg, #00bfff 0%, #ff1493 100%);
+  --gradient-card: linear-gradient(135deg, rgba(255, 20, 147, 0.1) 0%, rgba(0, 191, 255, 0.1) 100%);
+  
+  // Spacing
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+  --spacing-3xl: 6rem;
+  
+  // Border Radius
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-xl: 2rem;
+  
+  // Shadows
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.3);
+  --shadow-glow: 0 0 20px rgba(0, 191, 255, 0.3);
+  
+  // Transitions
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
+
+// Typography
+$font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+$font-family-mono: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+
+// Breakpoints
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;
+$breakpoint-2xl: 1536px;

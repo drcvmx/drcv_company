@@ -1,0 +1,34 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.vue';
+import Hero from '../components/Hero.vue';
+import Services from '../components/Services.vue';
+import Technologies from '../components/Technologies.vue';
+import Projects from '../components/Projects.vue';
+import About from '../components/About.vue';
+import Contact from '../components/Contact.vue';
+import Footer from '../components/Footer.vue';
+---
+
+<Layout title="DRCV COMPANY - Tu Socio Estratégico en Desarrollo Web">
+  <Header client:load />
+  <main>
+    <Hero client:load />
+    <Services client:load />
+    <Technologies client:load />
+    <Projects client:load />
+    <About client:load />
+    <Contact client:load />
+  </main>
+  <Footer client:load />
+</Layout>
+
+<script>
+  // Initialize Pinia store
+  import { createPinia } from 'pinia';
+  
+  if (typeof window !== 'undefined') {
+    const pinia = createPinia();
+    window.pinia = pinia;
+  }
+</script>
