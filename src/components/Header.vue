@@ -4,7 +4,7 @@
       <nav class="nav">
         <!-- Logo -->
         <div class="nav__logo">
-          <img src="/public_webp/drcv_company.webp" alt="DRCV COMPANY" class="nav__logo-img" />
+          <img src="/drcv_company.png" alt="DRCV COMPANY" class="nav__logo-img" />
         </div>
         
         <!-- Desktop Menu -->

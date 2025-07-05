@@ -141,7 +141,7 @@ const projects = [
     id: 1,
     name: 'Sitio Web Corporativo Seprytec',
     description: 'El sitio web de Seprytec, una empresa líder en seguridad privada en México desde 2014, sirve como una presentación digital integral. Se centra en la "Protección Integral" ofreciendo vigilancia física, custodia, sistemas electrónicos, seguridad canina y vehículos blindados. El sitio está altamente optimizado para SEO con metadatos detallados y una estructura de contenido lógica (Hero, About, Problems/Solution, Services, Advantages, Testimonials, Jobs, Contact) para atraer clientes en México, especialmente en Toluca. Además, utiliza carga diferida para optimizar el rendimiento, asegurando una experiencia de usuario rápida y eficiente. En esencia, el proyecto busca ser una herramienta de presentación profesional, completa y fácil de encontrar para los servicios de seguridad de Seprytec.',
-    image: 'public_webp/projects/seprytec.webp',
+    image: 'projects/seprytec.png',
     technologies: ['Next.js', 'React', 'SEO', 'Tailwind CSS', 'Figma'],
     metrics: [
       { value: '500%+', label: 'Aumento de Visibilidad Online' },
@@ -164,7 +164,7 @@ const projects = [
     id: 2,
     name: 'Portafolio Personal (Ciberpunk Neo-Brutalista)',
     description: 'Este proyecto es tu portafolio personal, construido con un diseño único inspirado en la estética ciberpunk y neo-brutalista. Su principal finalidad es exhibir tus habilidades como desarrollador frontend, tu experiencia profesional y los proyectos en los que has trabajado, todo ello presentado de una manera muy distintiva y atractiva.',
-    image: 'public_webp/projects/portfolio.webp',
+    image: 'projects/portfolio.png',
     technologies: ['Vue.js', 'Astro', 'Tailwind CSS', 'JavaScript'],
     metrics: [
       { value: '95%', label: 'Impacto Visual' },
@@ -187,7 +187,7 @@ const projects = [
     id: 3,
     name: 'drcv_note',
     description: 'drcv_note es una aplicación web de toma de notas construida con Next.js (un framework de React), utilizando Tailwind CSS para los estilos y Supabase como su base de datos y backend-as-a-service. Su objetivo principal es proporcionar una experiencia minimalista y eficiente para organizar tus pensamientos e información.',
-    image: 'public_webp/projects/drcv_note.webp',
+    image: 'projects/drcv_note.png',
     technologies: ['Next.js', 'React', 'Tailwind CSS', 'Supabase', 'JavaScript'],
     metrics: [
       { value: '99%', label: 'Organización Intuitiva' },

@@ -83,7 +83,7 @@ if __name__ == '__main__':
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding-top: 80px;
+  padding-top: 120px;
   overflow: hidden;
   
   &__background {

@@ -87,14 +87,14 @@ const techCategories = ref([
     name: 'Frontend',
     icon: CodeBracketIcon,
     technologies: [
-      { name: 'React', logo: '/public_webp/img/react.webp' },
-      { name: 'Next.js', logo: '/public_webp/img/nextjs.webp' },
-      { name: 'Vue.js' , logo: '/public_webp/img/vue.webp'},
-      { name: 'JavaScript', logo: '/public_webp/img/javascript.webp' },
-      { name: 'TypeScript', logo: '/public_webp/img/typescript.webp' },
-      { name: 'HTML5', logo: '/public_webp/img/html.webp' },
-      { name: 'CSS3', logo: '/public_webp/img/css.webp' },
-      { name: 'SASS/LESS' , logo: '/public_webp/img/sass.webp'}
+      { name: 'React', logo: '/img/react.png' },
+      { name: 'Next.js', logo: '/img/nextjs.png' },
+      { name: 'Vue.js' , logo: '/img/vue.png'},
+      { name: 'JavaScript', logo: '/img/javascript.png' },
+      { name: 'TypeScript', logo: '/img/typescript.png' },
+      { name: 'HTML5', logo: '/img/html.png' },
+      { name: 'CSS3', logo: '/img/css.png' },
+      { name: 'SASS/LESS' , logo: '/img/sass.png'}
     ]
   },
   {
@@ -102,13 +102,13 @@ const techCategories = ref([
     name: 'Backend',
     icon: ServerIcon,
     technologies: [
-      { name: 'Python', logo: '/public_webp/img/python.webp' },
-      { name: 'Flask', logo: '/public_webp/img/flaskw.webp'},
-      { name: 'Django', logo: '/public_webp/img/django.webp' },
-      { name: 'FastAPI', logo: '/public_webp/img/fastapi.webp' },
-      { name: 'Node.js', logo: '/public_webp/img/nodejs.webp' },
-      { name: 'Docker', logo: '/public_webp/img/docker.webp' },
-      { name: 'Kubernetes', logo: '/public_webp/img/kubernetes.webp' }
+      { name: 'Python', logo: '/img/python.png' },
+      { name: 'Flask', logo: '/img/flaskw.png'},
+      { name: 'Django', logo: '/img/django.png' },
+      { name: 'FastAPI', logo: '/img/fastapi.png' },
+      { name: 'Node.js', logo: '/img/nodejs.png' },
+      { name: 'Docker', logo: '/img/docker.png' },
+      { name: 'Kubernetes', logo: '/img/kubernetes.png' }
     ]
   },
   {
@@ -116,12 +116,12 @@ const techCategories = ref([
     name: 'Bases de Datos',
     icon: CircleStackIcon,
     technologies: [
-      { name: 'Oracle', logo: '/public_webp/img/oracle.webp' },
-      { name: 'Supabase', logo: '/public_webp/img/supabase.webp' },
-      { name: 'MySQL', logo: '/public_webp/img/mysql.webp' },
-      { name: 'Firebase', logo: '/public_webp/img/firebase.webp' },
-      { name: 'PostgreSQL', logo: '/public_webp/img/postgresql.webp' },
-      { name: 'MongoDB', logo: '/public_webp/img/mongodb.webp' }
+      { name: 'Oracle', logo: '/img/oracle.png' },
+      { name: 'Supabase', logo: '/img/supabase.png' },
+      { name: 'MySQL', logo: '/img/mysql.png' },
+      { name: 'Firebase', logo: '/img/firebase.png' },
+      { name: 'PostgreSQL', logo: '/img/postgresql.png' },
+      { name: 'MongoDB', logo: '/img/mongodb.png' }
     ]
   }
 ])
