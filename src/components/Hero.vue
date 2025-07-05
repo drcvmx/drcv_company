@@ -140,6 +140,10 @@ if __name__ == '__main__':
     font-weight: 800;
     line-height: 1.2;
     margin-bottom: var(--spacing-md);
+
+    @media (max-width: $breakpoint-sm) {
+      font-size: clamp(2rem, 7vw, 2.5rem);
+    }
   }
   
   &__subtitle {
@@ -147,6 +151,10 @@ if __name__ == '__main__':
     color: var(--color-primary-cyan);
     margin-bottom: var(--spacing-lg);
     font-weight: 600;
+
+    @media (max-width: $breakpoint-sm) {
+      font-size: 1.2rem;
+    }
   }
   
   &__description {
@@ -165,6 +173,7 @@ if __name__ == '__main__':
     @media (max-width: $breakpoint-sm) {
       flex-direction: column;
       align-items: center;
+      gap: var(--spacing-sm);
     }
   }
   
@@ -187,6 +196,10 @@ if __name__ == '__main__':
     width: 100%;
     backdrop-filter: blur(10px);
     box-shadow: var(--shadow-lg);
+
+    @media (max-width: $breakpoint-sm) {
+      max-width: 100%;
+    }
   }
 }
 
@@ -230,10 +243,13 @@ if __name__ == '__main__':
     line-height: 1.6;
     color: var(--color-text-primary);
     overflow-x: auto;
+    word-wrap: break-word;
+    white-space: pre-wrap;
   }
   
   code {
     color: var(--color-primary-cyan);
+    word-break: break-word;
   }
 }
 

@@ -3,7 +3,7 @@
     <div class="container">
       <div class="footer__content">
         <div class="footer__brand">
-          <img src="/drcv_company.png" alt="DRCV COMPANY" class="footer__logo" />
+          <img src="/public_webp/drcv_company.webp" alt="DRCV COMPANY" class="footer__logo" />
           <p class="footer__tagline">
             Desarrollo Web y Facilitando la Vida de los Usuarios.
           </p>
